@@ -1,0 +1,23 @@
+{
+    "name": "bauhaus-design",
+    "version": "1.0.0",
+    "contributors": [
+        {
+            "name": "Briar Taggart",
+            "website": "curiositybard.com"
+        },
+        {
+            "name": "YOUR NAME HERE",
+            "website": "YOUR WEBSITE HERE"
+        }
+    ],
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.1",
+        "path": "^0.12.7"
+    },
+    "description": "A website about Bauhaus design."
+}

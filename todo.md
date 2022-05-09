@@ -13,3 +13,6 @@
     - brainstorm other interactive elements 
 
 # NOTES
+
+## CLASSES
+- Container class (.container) for all shapes containing text or images 
