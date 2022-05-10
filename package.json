@@ -4,11 +4,11 @@
     "contributors": [
         {
             "name": "Briar Taggart",
-            "website": "curiositybard.com"
+            "website": "https://curiositybard.com"
         },
         {
-            "name": "YOUR NAME HERE",
-            "website": "YOUR WEBSITE HERE"
+            "name": "Ella Griffin",
+            "website": "https://codepen.io/EllaGriff"
         }
     ],
     "main": "index.js",

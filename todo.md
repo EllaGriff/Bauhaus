@@ -19,3 +19,4 @@
 - .section-title - title for each block
 - .section-body - title for main div of each block
 - class for each shape - like .triangle for triangular section, .circle for circular, etc. 
+- .hidden = don't show, .visible = show. JS will handle switching this class

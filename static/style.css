@@ -22,3 +22,15 @@ section {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Koulen", sans-serif;   
 }
+
+.hidden {
+    z-index: 0;
+}
+.visible {
+    z-index: 5
+}
+
+.hidden div,
+.hidden header {
+    visibility: hidden;
+}
