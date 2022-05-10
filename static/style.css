@@ -1,3 +1,24 @@
+:root {
+    /* Color variables here */
+    --dark: #011028; /* Almost black */
+    --light: #EFF5FA; /* Almost white */
+    --red: #9C1C28; 
+    --blue: #247BA0;
+    --yellow: #F0EA42;
+
+    /* use var(--name) to use the variables */
+}
+
 body {
     box-sizing: border-box;
+    font-family: "Poppins", arial, sans-serif;
+}
+
+section {
+    /* Default color background, classes/ID's should set the actual colors */
+    background-color: var(--blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Koulen", sans-serif;   
 }
