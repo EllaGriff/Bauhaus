@@ -8,11 +8,90 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Bauhaus Design</title>
 		<link rel="stylesheet" href="style.css">
+		
 		<!-- jQuery import via CDN -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		
+		<!-- Font Imports -->
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+		<!-- Header -->
+		<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Koulen">
+		<!-- Body -->
+		<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Poppins">
+
+		<!-- Import Scripts After Page Loads -->
+		<script defer src="scripts.js"></script>
 	</head>
     <body>
-		<h1>Bauhaus Design</h1>
-		<p>Here is some text</p>
+		<header>
+			<h1>Bauhaus Design</h1> <!-- Eventually we should change this line to a css-styled title-->
+		</header>
+
+		<!-- I think the best way to format this would be to have
+		a set of sections, which we can navigate through, and each section
+		can be its own shape in the UI/DOM -->
+
+		<section id="overview" class="container visible">
+			<header>
+				<h1 class="section-title">Section Title</h1>
+			</header>
+			<div class="section-body">
+				<p></p>
+			</div>
+		</section>
+		
+		<section id="history" class="container hidden">
+			<header>
+				<h1 class="section-title">Section Title</h1>
+			</header>
+			<div class="section-body">
+				<p></p>
+			</div>
+		</section>
+
+		<section id="graphic-design" class="container hidden">
+			<header>
+				<h1 class="section-title">Section Title</h1>
+			</header>
+			<div class="section-body">
+				<p></p>
+			</div>
+		</section>
+
+		<section id="sculpture" class="container hidden">
+			<header>
+				<h1 class="section-title">Section Title</h1>
+			</header>
+			<div class="section-body">
+				<p></p>
+			</div>
+		</section>
+
+		<section id="textiles" class="container hidden">
+			<header>
+				<h1 class="section-title">Section Title</h1>
+			</header>
+			<div class="section-body">
+				<p></p>
+			</div>
+		</section>
+
+		<section id="architecture" class="container hidden">
+			<header>
+				<h1 class="section-title">Section Title</h1>
+			</header>
+			<div class="section-body">
+				<p></p>
+			</div>
+		</section>
+
+		<footer>
+			<!-- Just popping this in here to credit us, fill in the name you wanna use and your website/github/etc -->
+			<p>This website was designed and built by <a href="https://curiositybard.com">Briar Taggart</a> and <a href="https://codepen.io/EllaGriff">E Griffin</a>.</p>
+		</footer>
     </body>
 </html>
