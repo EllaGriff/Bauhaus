@@ -4,6 +4,7 @@
     --light: #EFF5FA; /* Almost white */
     --red: #9C1C28; 
     --blue: #247BA0;
+    --blue-shadow: #174e8b;
     --yellow: #F0EA42;
 
     /* use var(--name) to use the variables */
@@ -14,16 +15,60 @@ body {
     font-family: "Poppins", arial, sans-serif;
 }
 
-section {
-    /* Default color background, classes/ID's should set the actual colors */
-    background-color: var(--blue);
-}
-
 h1, h2, h3, h4, h5, h6 {
     font-family: "Koulen", sans-serif;   
 }
 
-.hidden {
+section {
+    position: absolute;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+/* SVG's */
+svg rect {
+    fill: var(--blue); 
+    stroke: var(--blue);
+}
+svg circle {
+    fill: var(--red);
+    stroke: var(--red);
+}
+svg polygon {
+    fill: var(--yellow);
+    stroke: var(--yellow);
+}
+
+text {
+    font-family: "Poppins", arial, sans-serif;
+    overflow-wrap: normal;
+    fill: var(--light);
+}
+text.inner-title {
+    font-family: "Koulen", sans-serif;
+    font-size: 3em;
+    fill: var(--light);
+    stroke-width: 1px;
+    stroke: var(--blue-shadow);
+}
+
+.text-over {
+    z-index: 6;
+    
+    color: var(--light);
+
+    width: 480px;
+
+    position: relative;
+    top: -400px;
+    left: 10px;
+}
+
+.hidden svg circle,
+.hidden svg rect {
     z-index: 0;
 }
 .visible {
@@ -31,6 +76,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hidden div,
-.hidden header {
+.hidden header,
+.hidden svg>text {
     visibility: hidden;
+}
+
+/* Positioning individual svg elements */
+#overview {
+    top: 100px;
+    left: 200px;
+}
+#history {
+    top: 50px;
+    left: 50px;
+}
+#graphic-design {
+    top: 30px;
+    left: 350px;
 }
