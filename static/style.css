@@ -18,6 +18,22 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Koulen", sans-serif;   
 }
+h1 {
+    font-size: 3em;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+main {
+    position: relative;
+    top: 5px;
+    
+    margin: 0 auto;
+}
 
 section {
     position: absolute;
